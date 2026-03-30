@@ -1,10 +1,6 @@
 /* 给整个页面设置背景颜色和字体 */
 body {
     animation: fade 1s ease-out;
-    @keyframes fadeIn {
-        from{opacity:0 }
-        to{opacity:1}
-    }
     background-color: #e3cde6;  
     font-family: Arial, sans-serif;  /* 字体 */
     text-align: center;  /* 所有内容居中 */
@@ -72,4 +68,8 @@ a:hover {
     justify-content:center;
     opacity:0;
     transition:opacity 0.3s;
-}
+} 
+@keyframes fadeIn {
+        from{opacity:0 }
+        to{opacity:1}
+    }
