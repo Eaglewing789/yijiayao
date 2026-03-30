@@ -1,9 +1,18 @@
 /* 给整个页面设置背景颜色和字体 */
 body {
+    animation: fade 1s ease-out;
+    @keyframes fadeIn {
+        from{opacity:0 }
+        to{opacity:1}
+    }
     background-color: #e3cde6;  
     font-family: Arial, sans-serif;  /* 字体 */
     text-align: center;  /* 所有内容居中 */
     padding: 40px;  /* 页面四周留白 */
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -49,4 +58,18 @@ a {
 a:hover {
     background-color: #ffffff;  /* 变深一点 */
     transform: scale(1.02);  /* 稍微放大一点 */
+}
+
+.lightbox-img {
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.9);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    opacity:0;
+    transition:opacity 0.3s;
 }
