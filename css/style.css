@@ -1,7 +1,7 @@
 /* 给整个页面设置背景颜色和字体 */
 body {
     animation: fade 1s ease-out;
-    background-color: #e3cde6;  
+    background-color: #000000;  
     font-family: Arial, sans-serif;  /* 字体 */
     text-align: center;  /* 所有内容居中 */
     padding: 40px;  /* 页面四周留白 */
@@ -13,21 +13,25 @@ html {
 
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #e267ed;  
+    color: #ffffff;  
     font-size: 48px;
     margin-bottom: 10px;
 }
 
 h2 {
-    color: #ffffff;  
+    color: #000000;  
     font-size: 48px;
     margin-bottom: 10px;
+}
+
+h6 {
+    color: #eae1e0;
 }
 /* 段落文字样式 */
 p {
     font-family: KaiTi;
     font-size: 18px;
-    color: #000000;
+    color: #ffffff;
     max-width: 600px;
     margin: 0 auto 20px auto;  /* 居中，底部留白 */
     line-height: 1.5;  /* 行间距 */
@@ -44,7 +48,7 @@ img {
 /* 按钮样式 */
 a {
     display: inline-block;
-    background-color: #e3cde6;
+    background-color: #000000;
     color: rgb(255, 255, 255);
     padding: 12px 24px;
     font-size: 18px;
@@ -54,7 +58,7 @@ a {
 
 /* 鼠标悬停在按钮上的效果 */
 a:hover {
-    background-color: #ffffff;  /* 变深一点 */
+    background-color: #ff0000;  /* 变深一点 */
     transform: scale(1.02);  /* 稍微放大一点 */
 }
 
@@ -64,7 +68,7 @@ a:hover {
     left:0;
     width:100%;
     height:100%;
-    background:#e3cde6(0,0,0,0.9);
+    background:#ffffff(0,0,0,0.9);
     display:flex;
     align-items:center;
     justify-content:center;
@@ -78,7 +82,7 @@ a:hover {
 
 .back-btn {
     display: inline-block;
-    background-color: #df73d3;
+    background-color: #000000;
     color: white;
     padding: 10px 20px;
     border-radius: 30px;
