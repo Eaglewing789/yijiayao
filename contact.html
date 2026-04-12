@@ -18,9 +18,16 @@
         <div class="form-group">
             <label>留言：</label>
             <textarea id="message" row="5" placeholder="想对我说什么？" required></textarea>
+        <div id="twikoo-comment">
         </div>
-
-        <button type="submit-btn">提交留言</button>
+     </div>
+     <script src="https://cdn.jsdelivr.net/npm/twikoo@1.6.41/dist/twikoo.all.min.js"></script>
+     <script>
+        twikoo.init({
+            envID:'#twikoo-comment',
+        })
+     </script>
+     <button type="submit-btn">提交留言</button>
     </form>
  </body>
  </html>
